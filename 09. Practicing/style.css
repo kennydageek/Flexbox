@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.page-title {
+  font-size: 12px;
+  margin-top: 2.5em;
+  margin-bottom: 3em;
+  text-transform: uppercase;
+}
+
+.page-description {
+  font-size: 25px;
+  font-weight: 800;
+  color: rgb(13, 121, 60);
+  margin-bottom: 10px;
+}
+
+.page-description + p {
+  font-size: 10px;
+  margin-bottom: 20px;
+}
+
+.subscribe {
+  background: rgb(13, 121, 60);
+}
+
+img {
+  max-width: 600px;
+  border: 10px solid rgb(13, 121, 60);
+  padding-top: 30px;
+  display: inline-block;
+  align-content: center;
+}
+
+.card-title {
+  text-align: left;
+  margin-left: 30px;
+  color: white;
+}
+
+.card-title + p {
+  text-align: left;
+  margin: 30px 30px;
+  color: white;
+}
+
+.card-description {
+  text-align: left;
+  margin: 30px 30px;
+  color: white;
+}
