@@ -1,0 +1,29 @@
+body {
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  width: 70%;
+  max-width: 60rem;
+  border: 5px solid #000;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  /* Works on Main axis */
+  justify-content: center;
+}
+
+.flex-item {
+  margin: 0.5rem;
+  border: 5px solid #aaa;
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em;
+}

@@ -1,0 +1,52 @@
+body {
+  background: #ccc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+  margin: -5px auto 15px;
+  padding: 5px;
+  border-radius: 15px;
+  color: white;
+  background: url("4882066.jpg");
+  background-position: center;
+  border: 0px;
+}
+
+.centrebox {
+  max-width: 45rem;
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5);
+  margin: 10rem auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 40em) {
+  .centrebox {
+    flex-direction: row;
+  }
+}
+
+.flexy-kenny,
+.about-me {
+  padding: 2rem;
+}
+
+.flexy-kenny {
+  background: url(4882066.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+
+  flex-basis: 18rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 40em) {
+  .flexy-kenny {
+    flex-basis: 10em;
+  }
+}
